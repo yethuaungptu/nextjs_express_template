@@ -1,0 +1,29 @@
+{
+  "scripts": {
+    "start:local": "NODE_ENV=local nodemon index.js",
+    "start:dev": "NODE_ENV=dev nodemon index.js",
+    "start:prod": "NODE_ENV=prod node index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-async-errors": "^3.1.1",
+    "express-validator": "^6.14.2",
+    "i18n": "^0.15.0",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.6.0",
+    "mongoose-unique-validator": "^3.1.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "rotating-file-stream": "^3.0.4",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
